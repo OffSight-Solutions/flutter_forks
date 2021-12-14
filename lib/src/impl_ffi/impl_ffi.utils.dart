@@ -36,7 +36,7 @@ void _attachFinalizerEVP_PKEY(ffi.Pointer<EVP_PKEY> key) {
     4096,
   );
   if (ret != 1) {
-    throw AssertionError('package:webcrypto failed to attached finalizer');
+   // throw AssertionError('package:webcrypto failed to attached finalizer');
   }
 }
 
